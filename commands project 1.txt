@@ -1,0 +1,3 @@
+python server_Proj1.py 10.139.70.212 8765 'P2P-CI/1.0' '/home/naval-ubuntu/Documents/se1/'
+
+python client_proj1.py 10.139.70.212 8765 10.139.70.212 20004 20005 'P2P-CI/1.0' '/home/naval-ubuntu/Documents/new_cl2/'

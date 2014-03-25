@@ -1,0 +1,35 @@
+Instructions to run the code:
+
+the code has been developed in python - linux and will be able to run in linux machines as we have used linux libraries, which are not available in windows.
+
+RFC files to be transferred are expected to have the filename in the format - "rfcXXX.txt" where XXX is the number of the RFC.
+
+First start the server by :
+1. Go to the directory where server python file is located.
+2. run the command in terminal : "python server_Proj1.py"
+3. Pass the arguments when prompted, the following arguments will be prompted,
+	Enter server name:192.168.0.112
+	Enter Port to Listen:7734
+	Enter software version P2P-CI/X.Y:P2P-CI/1.0
+	Enter server directory full path:/home/naval-ubuntu/Project1/server/  (***it should be the full path ending with "/"***)
+
+After this the server is ready
+
+
+Then start the client by :
+
+1. Go to the directory where client python file is located.
+2. run the command in terminal : "python client_proj1.py"
+3. Pass the arguments when prompted, the following arguments will be prompted,
+	Enter server-name:192.168.0.112
+	Enter server-port:7734
+	Enter hostname:192.168.0.112 (***this is the client IP***)
+	Enter Portno(b/w 1025 and 65535) to connect with server:10001  (***port to which client will connect with the server****)
+	Enter Portno(b/w 1025 and 65535) to serve peers:10002	(***upload port to which client will listen for other clients****)
+	Enter s/w version(format P2P-CI/X.Y):P2P-CI/1.0
+	Enter client directory full path:/home/naval-ubuntu/Project1/client1/	(***it should be the full path ending with "/"***)
+
+After this the client is ready
+
+Now use the menu option provided in the client to interact with the server and other clients
+
